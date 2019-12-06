@@ -1,5 +1,7 @@
 FROM bde2020/spark-base:2.4.4-hadoop2.7
 
+
+RUN ls -ltr 
 COPY master.sh /
 
 ENV SPARK_MASTER_PORT 7077
